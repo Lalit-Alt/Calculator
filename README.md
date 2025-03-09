@@ -13,9 +13,10 @@
 <br>
 <h4>Technologies Used</h4>
 <pre>
-  <p>HTML - Structure of the calculator
-     CSS - Styling and layout
-     JavaScript - Functionality and calculations</p>
+  <p>
+    HTML - Structure of the calculator
+    CSS - Styling and layout
+    JavaScript - Functionality and calculations</p>
 </pre>
 <hr>
 <h6>Feel free to contribute or suggest improvements!</h6>
