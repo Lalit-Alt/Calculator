@@ -1,0 +1,75 @@
+*{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+/* All Buttons Container */
+.frame{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    background-color:rgb(34, 33, 33);
+    flex-wrap: wrap;
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+/* All Buttons */
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 0px,20px,0px,20px;
+    width: 21.22%;
+    height: 10%;
+    background-color: rgb(217, 165, 32);
+    border-radius: 40%;
+    text-align: center;
+    font-size:30px;
+}
+.bottom{
+    margin-bottom:8%;
+}
+.top{
+    margin-top:10%;
+}
+#clear{
+    width: 70%;
+    border-radius:10%;
+}
+
+/* Output Screen */
+.screen{
+    padding: 2%;
+    color: bisque;
+    font-size: 45px;
+    width: 85%;
+    height: 13%;
+    background-color: rgb(63, 62, 62);
+    margin-top: 5%;
+    border: 5px solid rgb(102, 101, 101);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+/* Effects */
+.touch:hover{
+    background-color: rgba(217, 165, 32, 0.5);
+}
+.press:active{
+    background-color: goldenrod;
+}
